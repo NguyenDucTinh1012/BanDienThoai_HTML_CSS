@@ -1,0 +1,519 @@
+body{
+	margin:0px  ;
+	font-family:arial;
+}
+*{
+	box-sizing:border-box;
+}
+
+.header{
+	height:223px;
+	margin-bottom:30px;
+
+}
+.container{
+	width:100%;
+min-height:100vh;
+	 overflow: hidden;
+
+
+}
+.footer{
+	height:500px;
+	width:100%;
+	background-color:#FF3333;
+	padding-top:30px;
+}
+
+
+.footer-content{
+	width:80%;height:350px;margin:auto;
+}
+/*----------------------------------Header*/
+.top{
+	width:100%;
+	height:45px;
+	color:#EEEEEE;
+	background-color:#FF3333
+
+}
+.top-content{
+	margin:auto;
+	width:80%;
+	height:100%;
+
+}
+.top-left{
+width:60%; height:45px;float:left
+}
+
+.top-left span{
+	line-height:45px;margin-left:20px; margin-left:0px
+}
+.banner{
+	width:100%; height:128px;background-color:#6633FF;padding-top:30px
+}
+
+.top-right {
+	width:40%; height:45px; float:right;width:40%; height:40px; float:right;text-align:right	
+}
+
+.top-right a{
+	text-decoration:none;
+	color:#EEEEEE;;
+}
+.banner-content {
+	width:80%;height:78px;margin:0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+.banner-content .b{
+	width:20%; height:80px; 
+	
+}
+
+.b input{
+	line-height:30px;width:250px;
+	
+}
+a{text-decoration:none}
+.b a{
+	height:40px;
+	width:130px;
+	background-color:#CC9900;
+	color:white;
+	display:block;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+	margin-top:19px;
+	
+	float:right;
+}
+
+.b input[type="submit"]:hover {
+    background-color: rgba(255, 0, 0, 0.5); /* Màu đỏ với độ trong suốt */
+    background-blend-mode: multiply;
+}
+.b #cart{
+	height:40px;width:40px;float:left;margin-top:19px;margin-left:72px;background-color:#CC9900
+}
+.menu{
+	width:100%;height:50px;background-color:#FF3333;
+}
+.menu-content{
+	width:80%;height:100%;margin:auto
+}
+.menu-content ul li{
+	float:left;
+}
+
+.menu ul ul{
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu-content ul li a{
+	display:block;
+	line-height:50px;
+	text-decoration:none
+	;color:white;
+	padding:0px 20px;
+
+}
+
+.menu li:hover{
+		position:relative;
+		background-color: orange;
+}
+.menu li:hover ul{
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	
+}
+
+.menu li li{
+	
+	width:300px;
+	border-bottom:1px solid #CCC;
+	background-color:#EFEFEF;
+	line-height:38px;
+	padding-left:15px;
+}
+
+.menu li li a{
+	text-decoration:none;
+	color:#333;
+	display:block;
+}
+.menu li li a:hover{
+	color:#FFF;
+}
+
+/*******************************MAIN*************************/
+
+.wrapper a:hover{
+	
+	color:#CC0000;
+}
+.cate{
+	margin-top:30px;
+	    min-height: 250px;
+		 overflow: hidden;
+   
+}
+.cate h1{
+	font-size:14pt;line-height:40px;color:white;
+	height:40px;background-color:red;width:200px;border-radius:0 30px 30px 0;margin:0px;
+	text-align:center;
+}
+.cate div ul li{
+	
+	margin-right:15px;
+	padding: 0px;
+	list-style: none;
+}
+.cate div ul li a{
+	text-decoration:none;
+}
+
+.cate div ul li{
+	
+	float:left;
+}
+
+.product{
+	text-align:center;
+	
+}
+.product-price{
+	font-size:14pt;
+	color:#FF0000;
+	font-weight:bold;
+}
+
+.product-photo{
+	width:200px;
+	height:200px;
+}
+.product-name{
+	font-size:12pt;
+	color:black;
+	font-weight:bold;
+}
+
+.TT {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.TT_content {
+    width: 80%;
+    display: flex; /* Thêm flexbox để các item nằm ngang */
+    justify-content: space-between; /* Căn các item đều nhau */
+    padding: 10px;
+}
+
+.TT_item {
+
+    width: 23%;
+
+}
+.TT_item div{
+	line-height:24px;
+	color:white;
+}
+.TT_content img {
+	float:left;
+    width: 50px;
+    height: 50px;
+	margin-right:20px;
+}
+
+.wrapperSlide{
+	width:100%;
+}
+
+.title{
+	font-size:18px;
+}
+.wrapper-fix{
+	margin-top:30px;clear:both;
+}
+.wrapper-fix img{
+width:70px;height:80px;float:left}
+
+}
+.xemthem {
+	display: block;
+	
+	
+	text-decoration: none;
+	border: 2px solid black; /* để border hiển thị đúng */
+	clear: both; /* thêm dòng này để margin hoạt động đúng khi float */
+}
+
+
+.product-new{
+	text-align:left
+}
+
+.product-new .product-photo{
+	width:350px;margin-bottom:10px;
+}
+.product-new a{
+	text-decoration:none;color:red;float:right;
+}
+[class*="col-"]{
+	float:left;
+	padding:30px;
+	min-height:200px;
+	width:100%
+}
+
+
+.col-m-2-4 {
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.col-m-2 {
+  width: 16.66%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.col-m-3 {
+    width: 25%;
+    float: left;
+
+    padding: 10px;
+}
+
+.product-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*SLIDE SHOW*/
+#sideshow{
+	width:65%;float:left;
+}
+#qq{
+	width:33%;float:right;margin-left:15px;
+}
+.wrapperSlide .slidee{
+width:77%;margin-top:20px;float:left
+}
+
+.wrapperSlide .slidee2{
+	
+width:77%;margin-top:20px;float:right
+}
+
+
+.goiy{
+	float:right;width:20%;margin-top:20px;
+}
+
+.goiy2{float:left;width:20%;margin-top:20px;}
+
+/* ===== Mobile (max-width: 767px) ===== */
+@media only screen and (max-width: 768px) {
+    .col-s-1 { width: 8.33%; }
+    .col-s-2 { width: 16.66%; }
+    .col-s-3 { width: 25%; }
+    .col-s-4 { width: 33.33%; }
+    .col-s-5 { width: 41.66%; }
+    .col-s-6 { width: 50%; }
+    .col-s-7 { width: 58.33%; }
+    .col-s-8 { width: 66.66%; }
+    .col-s-9 { width: 75%; }
+    .col-s-10 { width: 83.33%; }
+    .col-s-11 { width: 91.66%; }
+    .col-s-12 { width: 100%; }
+	
+	
+    
+
+    .col-s-2-4 { width: 66.66%; }  
+
+    /* Ẩn các phần tử không cần thiết trên mobile */
+    .top-left, .menu, .banner-content img, .b form, #qq {
+        display: none;
+    }
+    .goiy{display:none}
+    .goiy2{display:none}
+
+	
+	.top-right {
+		width:100%;
+    text-align: center;       /* Căn trái nội dung */
+    height: 45px;
+    line-height: 45px;      /* Căn giữa dọc nếu cần */
+     /* Thêm khoảng cách bên trái nếu muốn */
+}
+.wrapperSlide .slidee{width:100%}
+.wrapperSlide .slidee2 { width: 100%; }  
+
+    #sideshow {
+        width: 100%;
+    }
+	
+.ul-SP{
+	display:none;
+}
+    .tin{
+		display:none
+	}
+	
+	  .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	
+    }
+.footer{
+	height:920px;
+}
+    .foot-left, .foot-right {
+        width: 90% !important;
+        float: none !important;
+        margin-left: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .foot-left div, .foot-right div {
+        text-align: left;
+    }
+
+    .foot-left img, .foot-right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    form input[type="email"] {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+    }
+	
+	.menu .menu-content.SanPham{
+		display:block
+	}
+	
+}
+
+/* ===== Tablet (min-width: 768px) and (max-width: 1023px) ===== */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .col-m-1  { width: 8.33%; }
+    .col-m-2  { width: 16.66%; }
+    .col-m-3  { width: 25%; }
+    .col-m-4  { width: 33.33%; }
+    .col-m-5  { width: 41.66%; }
+    .col-m-6  { width: 50%; }
+    .col-m-7  { width: 58.33%; }
+    .col-m-8  { width: 66.66%; }
+    .col-m-9  { width: 75%; }
+    .col-m-10 { width: 83.33%; }
+    .col-m-11 { width: 91.66%; }
+    .col-m-12 { width: 100%; }
+
+    /* Định nghĩa cho col-m-2-4 */
+    .col-m-2-4 { width: 33.33%; } 
+	
+	 .b form, #qq {
+        display: none;
+    }
+	
+	.ul-SP{
+		display:none;
+	}
+    .goiy{display:none}
+    .goiy2{display:none}
+	
+	.wrapperSlide .slidee{width:100%}
+.wrapperSlide .slidee2 { width: 100%; } 
+
+#sideshow {
+        width: 100%;
+    } 
+	
+	
+		  .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	
+    }
+.footer{
+	height:920px;
+}
+    .foot-left, .foot-right {
+        width: 90% !important;
+        float: none !important;
+        margin-left: 0 !important;
+        margin-bottom: 20px;
+    }
+
+    .foot-left div, .foot-right div {
+        text-align: left;
+    }
+
+    .foot-left img, .foot-right img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    form input[type="email"] {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+    }
+	
+	.menu .menu-content.SanPham{
+		display:block
+	}
+}
+
+/* ===== Desktop (min-width: 1024px) ===== */
+@media only screen and (min-width: 1025px) {
+    .col-x-1  { width: 8.33%; }
+    .col-x-2  { width: 16.66%; }
+    .col-x-3  { width: 25%; }
+    .col-x-4  { width: 33.33%; }
+    .col-x-5  { width: 41.66%; }
+    .col-x-6  { width: 50%; }
+    .col-x-7  { width: 58.33%; }
+    .col-x-8  { width: 66.66%; }
+    .col-x-9  { width: 75%; }
+    .col-x-10 { width: 83.33%; }
+    .col-x-11 { width: 91.66%; }
+    .col-x-12 { width: 100%; }
+
+    /* Định nghĩa cho col-x-2-4 */
+      /* Chỉnh sửa độ rộng cho desktop */
+    
+    #content {
+        width: 80%;
+    }
+}

@@ -1,0 +1,651 @@
+<html>
+	<head>
+		<title>Bán điện thoại</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="jquery-3.7.1.min.js"></script>
+		<script src="cart.js"></script>
+	</head>
+	<body >
+		<!----------------------------------Phần Header---------------------->
+		<div class="header">
+			<div class="top">
+				<div class="top-content">
+					<div class="top-left">
+						<span >Địa chỉ:<b>Yên Mỹ-Hưng Yên</b></span>
+						<span >Liên hệ:<b>03456789</b></span>
+					</div>
+					<div class="top-right">
+						<a style="line-height:45px;"id ="login"href="login.html">Đăng nhập</a> | <a href="SignUp.html">Đăng ký</a>
+					</div>
+				</div>
+			</div>
+			<div class="banner" >
+				<div class="banner-content" >
+					<div class="b">
+						<img src="logo.jpg" height="78px" style="width:100%">
+					</div>
+					<div class="b" style="width:300px; ">
+						<form>
+							<div style="margin-top:24px;">
+								<input style="float:left;border:none"type="text" minlength="4" maxlength="50" required placeholder="Bạn muốn tìm gì?"/>
+								<input style="width:35px;height:32px;border:none ;background-image: url('search.jpg'); background-size: cover;" type="submit" value="" />
+
+							</div>
+						</form>
+					</div>
+					<div class="b">
+					
+						<a href="cart.html">Giỏ hàng(0)</a>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu-content">
+					<ul style="margin:0px;padding:0px;list-style:none">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="about.html">Giới thiệu</a></li>
+						<li class="SanPham"><a href="#">Sản phẩm</a>
+							<ul>
+								<li><a href="accessories.html">Phụ kiện</a></li>
+								<li><a href="Iphone.html">Iphone</a></li>
+								<li><a href="Samsung.html">Samsung</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">xeomi</a></li>
+								<li><a href="#">Nokia</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">Huawei</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="new.html">Tin tức</a></li>
+						<li><a href="Contact.html">Liên hệ</a></li>
+						<li><a href="sale.html">Khuyến mãi</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--------------------------------------Phần Main--------------------->
+		<div class="container">
+			<div class="wrapper" style="width:80%;margin:auto;min-height:600px;">
+				<div style="width:100%;height:365px;">
+					<div id="sideshow">
+						<img id="slide"src="slide_1.jpg" style="width:100%;height:380px">
+					</div>
+					<script src="slideshow.js"></script>
+					<script>
+						setInterval(next,2000);
+					</script>
+					<div id="qq">
+						<img src="banner_right_1.jpg">
+						<img src="banner_right_2.jpg" style="margin-top:30px;">
+					</div>
+				</div>
+				<!-------IPHONE--------->
+				<div class="cate">
+					<h1>Gợi ý cho bạn</h1>
+					<div class="products">
+						<div class="col-s-12 col-m-2-4 col-x-2-4">
+
+							<div class="product">
+								<a href="product-detail.html">
+								<img class="product-photo"src="iPhone 15 Pro Max.jpg"/></br>
+								<span class="product-name">iPhone 15 Pro Max</span></br>
+								<span class="product-price">34.990.000</span></br>
+								 Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+					
+						<div class="col-s-12 col-m-2-4 col-x-2-4">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Samsung Galaxy S24 Ultra.jpg"/></br>
+								<span class="product-name">Samsung Galaxy S24</span></br>
+								<span class="product-price">31.990.000 VNĐ</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						
+						<div class="col-s-12 col-m-2-4 col-x-2-4">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Xiaomi 13T Pro.jpg"/></br>
+								<span class="product-name">Xiaomi 13T Pro </span></br>
+								<span class="product-price">13.990.000 VNĐ</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						
+						<div class="col-s-12 col-m-2-4 col-x-2-4">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="OPPO Reno11 F 5G.jpg"/></br>
+								<span class="product-name">OPPO Reno11 F 5G</span></br>
+								<span class="product-price">8.490.000 VNĐ</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-2-4 col-x-2-4">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Realme C67.jpg"/></br>
+								<span class="product-name">Realme C67</span></br>
+								<span class="product-price">4.490.000 VNĐ</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+					</div>
+					
+					
+			</div>
+				
+			<div class="cate">
+					<h1>Sản phẩm bán chạy</h1>
+					
+					<div class="products">
+						<div class="col-s-12 col-m-4 col-x-2">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="AirPods Pro 2.jpg"/></br>
+								<span class="product-name">AirPods Pro 2</span></br>
+								<span class="product-price">90.000 VND</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+					
+						<div class="col-s-12 col-m-4 col-x-2">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Sạc nhanh Samsung 25W.jpg"/></br>
+								<span class="product-name">Sạc nhanh Samsung 25W</span></br>
+								<span class="product-price">150.000 VND</span></br>
+							Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						
+						<div class="col-s-12 col-m-4 col-x-2">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Ốp lưng Magsafe iPhone 15 Pro Max.jpg"/></br>
+								<span class="product-name">Ốp lưng Magsafe iPhone 15 Pro Max</span></br>
+								<span class="product-price">250.000 VND</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						
+						<div class="col-s-12 col-m-4 col-x-2">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Cáp Anker USB-C 1.8m.jpg"/></br>
+								<span class="product-name">Cáp Anker USB-C 1.8m</span></br>
+								<span class="product-price">90.000 VND</span></br>
+							Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-4 col-x-2">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Kính cường lực Gor iPhone 15.jpg"/></br>
+								<span class="product-name">Kính cường lực Gor iPhone 15</span></br>
+								<span class="product-price">90.000 VND</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+						<div class="col-s-12 col-m-4 col-x-2">
+
+							<div class="product">
+							<a href="#">
+								<img class="product-photo"src="Pin dự phòng Xiaomi 20.000mAh Gen 3.jpg"/></br>
+								<span class="product-name">Pin sạc dự phòng Xiaomi 20.000mAh</span></br>
+								<span class="product-price">90.000 VND</span></br>
+								Xem chi tiết </a>
+								<input class="btnBuy" type="button" value="chọn mua">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<!-------Iphone--------->
+				<div class="cate ">
+					<div>
+						<h1 style="float:left;">Điện thoại Iphone</h1>
+						<ul class="ul-SP" style="float:right;width:50%"> 
+								<li><a href="Iphone.html">Iphone</a></li>
+								<li><a href="Samsung.html">Samsung</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">xeomi</a></li>
+								<li><a href="#">Nokia</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">Huawei</a></li>
+								<li><a href="#">Phụ kiện</a></li>
+						</ul>
+					</div>
+					<div class="wrapperSlide">
+						<div class="slidee">
+							<img class="slideqq"src="slideIphone.jpg" style="width:100%;height:300px;">
+							<div class="products">
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="iPhone 14 Plus.jpg"/></br>
+										<span class="product-name">iPhone 14 Plus</span></br>
+										<span class="product-price">13.990.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+							
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="iPhone 11.jpg"/></br>
+										<span class="product-name">iPhone 11</span></br>
+										<span class="product-price">8.990.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="iPhone 13 Pro Max.jpg"/></br>
+										<span class="product-name">iPhone 13 Pro Max</span></br>
+										<span class="product-price">13.490.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="iPhone 12 Pro Max.jpg"/></br>
+										<span class="product-name">iPhone 12 Pro Max</span></br>
+										<span class="product-price">10.490.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="goiy">
+							<span class="title">Gợi ý dành cho bạn</span>
+							<div class="wrapper-fix" style="margin-top:10px">
+								<img src="iPhone 15 Pro Max.jpg"><br>
+								<span>Iphone 15 pro max</span><br>
+								<span style="color:red">34.990.000</span></br>
+							</div>
+							<div class="wrapper-fix" >
+								<img src="iPhone 15 Pro.jpg"><br>
+								<span>Iphone 15 pro</span><br>
+								<span style="color:red">23.990.000</span>
+							</div>
+							<div class="wrapper-fix" >
+								<img src="iPhone 15 Plus.jpg" ><br>
+								<span>iPhone 15 Plus</span><br>
+								<span style="color:red">19.590.000</span>
+							</div>
+							<div class="wrapper-fix">
+								<img src="iPhone 15 Plus.jpg"><br>
+								<span>Iphone 15</span><br>
+								<span style="color:red">15.990.000</span>
+							</div>
+							<div class="wrapper-fix">
+								<img src="iPhone 14 Pro Max.jpg"><br>
+								<span>Iphone 14 pro max</span><br>
+								<span style="color:red">16.990.000</span>
+							</div>
+							
+							<div style="margin-top: 60px;">
+								<a class="xemthem" href="Iphone.html">Xem thêm >></a>
+							</div>
+
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="cate ">
+					<div>
+						<h1 style="float:left;">Điện thoại Samsung</h1>
+						<ul class="ul-SP"style="float:right;width:50%"> 
+							<li><a href="Iphone.html">Iphone</a></li>
+								<li><a href="Samsung.html">Samsung</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">xeomi</a></li>
+								<li><a href="#">Nokia</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">Huawei</a></li>
+								<li><a href="#">Phụ kiện</a></li>
+						</ul>
+					</div>
+					<div class="wrapperSlide"style="clear:both">
+						<div class="goiy2">
+							<span class="title">Gợi ý dành cho bạn</span>
+							<div class="wrapper-fix" style="margin-top:10px">
+								<img src="Samsung Galaxy A54 5G.jpg"><br>
+								<span>Samsung Galaxy A54 5G</span><br>
+								<span style="color:red">10.490.000 </span>
+							</div>
+							<div class="wrapper-fix" >
+								<img src="Samsung Galaxy A34 5G.jpg"><br>
+								<span>Samsung Galaxy A34 5G</span><br>
+								<span style="color:red">7.490.000 </span>
+							</div>
+							<div class="wrapper-fix">
+								<img src="Samsung Galaxy M54.jpg" ><br>
+								<span>Samsung Galaxy M54</span><br>
+								<span style="color:red">9.990.000 </span>
+							</div>
+							<div class="wrapper-fix">
+								<img src="Samsung Galaxy M14.jpg"><br>
+								<span>Samsung Galaxy M14</span><br>
+								<span style="color:red">Samsung Galaxy M14</span>
+							</div>
+							<div class="wrapper-fix" >
+								<img src="Samsung Galaxy S23.jpg"><br>
+								<span>Samsung Galaxy S23</span><br>
+								<span style="color:red">21.990.000</span>
+							</div>
+							
+							<div style="margin-top: 60px;">
+								<a class="xemthem" href="Iphone.html">Xem thêm >></a>
+							</div>
+
+						</div>
+						<div class="slidee2">
+							<img src="slideSamSung_1.jpg" style="width:100%;height:300px;">
+							<div class="products">
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Samsung Galaxy S244.jpg"/></br>
+										<span class="product-name">Samsung Galaxy S24+</span></br>
+										<span class="product-price">30.990.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+							
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Samsung Galaxy S24 Ultra.jpg"/></br>
+										<span class="product-name">Samsung Galaxy S24 Ultra</span></br>
+										<span class="product-price">33.990.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Samsung Galaxy S23 Ultra.jpg"/></br>
+										<span class="product-name">Samsung Galaxy S23 Ultra</span></br>
+										<span class="product-price">28.990.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Samsung Galaxy Z Fold5.jpg"/></br>
+										<span class="product-name">Samsung Galaxy Z Fold5</span></br>
+										<span class="product-price">37.990.000 VNĐ</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="cate ">
+					<div>
+						<h1 style="float:left;">Phụ kiện</h1>
+						<ul class="ul-SP"style="float:right;width:50%"> 
+							<li><a href="Iphone.html">Iphone</a></li>
+								<li><a href="Samsung.html">Samsung</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">xeomi</a></li>
+								<li><a href="#">Nokia</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">Huawei</a></li>
+								<li><a href="#">Phụ kiện</a></li>
+						</ul>
+					</div>
+					<div class="wrapperSlide">
+						<div class="slidee">
+							<img src="phukien.jpg" style="width:100%;height:300px;">
+							<div class="products">
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+									 
+										<img class="product-photo"src="Ốp lưng điện thoại.jpg"/></br>
+										<span class="product-name">Ốp lưng điện thoại</span></br>
+										<span class="product-price">39.000</span></br>
+										
+									
+										<input class="btnBuy" type="button" value="chọn mua">	
+									</div>
+								</div>
+							
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Miếng dán màn hình.jpg"/></br>
+										<span class="product-name">Miếng dán màn hình</span></br>
+										<span class="product-price">59.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Tai nghe Bluetooth.jpg"/></br>
+										<span class="product-name">Tai nghe Bluetooth</span></br>
+										<span class="product-price">340.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+								<div class="col-m-6 col-s-12 col-m-3">
+
+									<div class="product">
+										<img class="product-photo"src="Sạc dự phòng (Power Bank).jpg"/></br>
+										<span class="product-name">Sạc dự phòng (Power Bank)</span></br>
+										<span class="product-price">690.000</span></br>
+										
+										<input class="btnBuy" type="button" value="chọn mua">
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="goiy"style="float:right;width:20%;margin-top:20px;">
+							<span class="title">Gợi ý dành cho bạn</span>
+							<div class="wrapper-fix" style="margin-top:10px">
+								<img src="Cáp sạc nhanh.jpg" ><br>
+								<span>Cáp sạc nhanh</span><br>
+								<span style="color:red">195.000</span>
+							</div>
+							<div class="wrapper-fix" style="margin-top:10px;clear:both">
+								<img src="Giá đỡ điện thoại.jpg" ><br>
+								<span>Giá đỡ điện thoại</span><br>
+								<span style="color:red">99.000</span>
+							</div>
+							<div class="wrapper-fix" style="margin-top:10px;clear:both">
+								<img src="Thẻ nhớ MicroSD.jpg"><br>
+								<span>Thẻ nhớ MicroSD</span><br>
+								<span style="color:red">245.000</span>
+							</div>
+							<div class="wrapper-fix" style="margin-top:10px;clear:both">
+								<img src="Đế sạc không dây.jpg"><br>
+								<span>Đế sạc không dây</span><br>
+								<span style="color:red">999.000</span>
+							</div>
+							<div class="wrapper-fix" style="margin-top:10px;clear:both">
+								<img src="Gimbal chống rung.jpg"><br>
+								<span>Gimbal chống rung</span><br>
+								<span style="color:red">3.258.000</span>
+							</div>
+							
+							<div style="margin-top: 60px;">
+									<a class="xemthem" href="Iphone.html">Xem thêm >></a>
+							</div>
+
+						</div>
+						
+					</div>
+					
+					
+				</div>
+				<!-------Xeomi--------->
+				<div class="cate" style="text-align:center;clear:both;">
+				
+					<a href="new.html" style="text-decoration:none;"><h1><i>Tin tức</i></h1></a>
+					<span class="tin"><i>Tin công nghệ, cập nhật tin tức nhanh nhất và mới nhất</i></span>
+					
+					<div class="products" >
+						<div class="col-m-12 col-x-4 col-s-12"">
+							<div class="product-new">
+								<img class="product-photo"src="Iphone.jpg"/></br>
+								<span style="font-size:16px;">iPhone 16 Pro Max – Đỉnh cao nhiếp ảnh</span><br></br>
+								<span><i>Apple vừa chính thức giới thiệu iPhone 16 Pro Max với nâng cấp mạnh mẽ về camera. Cụm camera 4 ống kính được tích hợp cảm biến mới cho phép chụp ảnh chân dung xóa phông cực kỳ chân thực...</i></span><br>
+								<a href="newDetail.html">Xem thêm>></a>
+							</div>
+						</div>
+					
+						<div class="col-m-12 col-x-4 col-s-12">
+							<div class="product-new" >
+								<img class="product-photo"src="vivo.jpg" /></br>
+								<span style="font-size:16px;">Vivo X200 ra mắt với camera siêu zoom 100x</span><br></br>
+								<span><i>Vivo vừa trình làng mẫu flagship mới nhất Vivo X200, được trang bị camera periscope zoom quang học lên đến 100x – vượt xa các đối thủ cùng phân khúc....</i></span><br>
+								<a href="newDetail.html">Xem thêm>></a>
+							</div>
+						</div>
+						
+						<div class="col-m-12 col-x-4 col-s-12">
+							<div class="product-new" >
+								<img class="product-photo"src="Oppo.jpg" /></br>
+								<span style="font-size:16px;">Oppo Find X7 – Flagship</span><br></br>
+								<span><i>Oppo tiếp tục tạo điểm nhấn với mẫu Find X7 chỉ dày 6.8mm nhưng tích hợp cấu hình cực mạnh – chip Snapdragon 8 Gen 3, RAM 12GB, pin 5000mAh cùng sạc nhanh SuperVOOC 100W.....</i></span><br>
+								<a href="newDetail.html">Xem thêm>></a>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Phần Footer-->
+		<div class="footer" >
+			<div class="footer-content">
+				<div class="foot-left" style="float:left;width:49%;color:white;">
+					<span style="font-size:20px;font-weight:bold;">CHÚNG TÔI Ở ĐÂY VỚI BẠN</span>
+					<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+
+					<!-- Thông tin liên hệ -->
+					<div style="margin-top:10px;line-height:25px;">
+						<p><strong>Địa chỉ:</strong> Nội Tây - Trung Hòa - Yên Mỹ - Hưng Yên</p>
+						<p><strong>Giờ làm việc:</strong> 8h - 20h (Hằng ngày)</p>
+						<p><strong>Hotline:</strong> 0345 6789</p>
+					</div>
+
+					<!-- Tư vấn -->
+					<div style="display:flex;gap:10px;margin-top:15px;">
+						<div style="width:50%;">
+							<p><strong>Tư vấn đổi/trả:</strong></p>
+							<p>0345 6789</p>
+
+							<span style="font-size:18px;font-weight:bold;">Liên kết</span>
+							<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+							<img src="iconn.jpg" style="width:150px;height:50px;margin-top:10px;" alt="Social Icons">
+						</div>
+
+						<div style="width:50%;">
+							<p><strong>Tư vấn bảo hành:</strong></p>
+							<p>✉️ DienThoai123@gmail.com</p>
+
+							<span style="font-size:18px;font-weight:bold;">Thanh toán</span>
+							<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+							<img src="itemm.jpg" style="width:280px;height:50px;margin-top:10px;" alt="Payment Methods">
+						</div>
+					</div>
+				</div>
+
+				<div class="foot-right" style="float:right;width:48%;color:white;margin-left:30px">
+					<span style="font-size:20px;font-weight:bold;">VỀ CHÚNG TÔI</span>
+					<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+					
+					<div style="margin-top:10px;line-height:25px;">
+						<p>🏢 <strong>Công ty TNHH Điện Thoại 123</strong></p>
+						<p>Mã số thuế: 0101234567</p>
+						<p>📅 Thành lập: 2025</p>
+						<p>🌐 Website: www.dienthoai123.vn</p>
+					</div>
+
+					<div style="margin-top:20px;">
+						<span style="font-size:18px;font-weight:bold;">Chính sách & Hỗ trợ</span>
+						<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+						<ul style="padding-left:0;line-height:25px;margin-left:25px;">
+							<li> <a href="#" style="color:white;text-decoration:none;">Chính sách bảo hành</a></li>
+							<li> <a href="#" style="color:white;text-decoration:none;">Chính sách đổi trả</a></li>
+							<li> <a href="#" style="color:white;text-decoration:none;">Chính sách giao hàng</a></li>
+							
+						</ul>
+					</div>
+
+					<div style="margin-top:20px;">
+						<span style="font-size:18px;font-weight:bold;">Đăng ký nhận tin</span>
+						<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+						<form style="margin-top:10px;">
+							<input type="email" placeholder="Nhập email của bạn" style="width:70%;padding:8px;border:none;border-radius:5px;">
+							<input type="submit" value="Gửi" style="padding:8px 12px;margin-left:5px;background-color:#ff6600;color:white;border:none;border-radius:5px;cursor:pointer;">
+						</form>
+					</div>
+				</div>
+
+					
+				</div>
+		</div>
+		
+	</body>
+</html>

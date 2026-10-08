@@ -1,0 +1,93 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="adim.css">
+    <title>Quản trị bán hàng</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Quản trị bán hàng</h1>
+    </div>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="adim.html">Trang chính</a></li>
+                <li><a href="product-management.html">Quản lý sản phẩm</a></li>
+                <li><a href="#">Quản lý đơn hàng</a></li>
+                <li><a href="#">Người dùng</a></li>
+                <li><a href="#">Thống kê doanh thu</a></li>
+                <li><a href="#">Khuyến mãi</a></li>
+                <li><a href="#">Cài đặt</a></li>
+                <li><a href="#">Đăng xuất</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+			<div class="product-manager">
+				<h2>📦 Quản lý sản phẩm</h2>
+
+				<div class="actions">
+					<input type="text" placeholder="🔍 Tìm kiếm sản phẩm...">
+					<select>
+						<option value="">Lọc theo giá</option>
+						<option value="duoi1tr">Dưới 1 triệu</option>
+						<option value="1-5tr">Từ 1 - 5 triệu</option>
+						<option value="tren5tr">Trên 5 triệu</option>
+					</select>
+					
+				</div>
+				<div class="add-product-form">
+					<h3>➕ Thêm sản phẩm mới</h3>
+					<form>
+						<input type="text" placeholder="Tên sản phẩm">
+						<input type="text" placeholder="Giá sản phẩm">
+						<input type="number" placeholder="Số lượng">
+						
+						<button type="submit">Lưu sản phẩm</button>
+					</form>
+				</div>
+
+				<table class="product-table">
+					<thead>
+						<tr>
+							<th>Hình ảnh</th>
+							<th>Tên sản phẩm</th>
+							<th>Giá</th>
+							<th>Số lượng</th>
+							<th>Ngày thêm</th>
+							<th>Hành động</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><img src="Samsung Galaxy M14.jpg" alt="iPhone" width="50"></td>
+							<td>Samsung Galaxy M14</td>
+							<td>3.990.000</td>
+							<td>12</td>
+							<td>2025-04-10</td>
+							<td>
+								<button class="edit-btn">✏️ Sửa</button>
+								<button class="delete-btn">🗑️ Xóa</button>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="iPhone 11.jpg" alt="iphone 11" width="50"></td>
+							<td>Samsung Galaxy S23</td>
+							<td>8.990.000</td>
+							<td>8</td>
+							<td>2025-04-05</td>
+							<td>
+								<button class="edit-btn">✏️ Sửa</button>
+								<button class="delete-btn">🗑️ Xóa</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+			</div>
+
+		</div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<title>Bán điện thoại</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="jquery-3.7.1.min.js"></script>
+		<script src="cart.js"></script>
+	</head>
+	<body >
+		<!----------------------------------Phần Header---------------------->
+		<div class="header">
+			<div class="top">
+				<div class="top-content">
+					<div class="top-left">
+						<span >Địa chỉ:<b>Yên Mỹ-Hưng Yên</b></span>
+						<span >Liên hệ:<b>03456789</b></span>
+					</div>
+					<div class="top-right">
+						<a style="line-height:45px;"id ="login" href="login.html">Đăng nhập</a> | <a href="SignUp.html">Đăng ký</a>
+					</div>
+				</div>
+			</div>
+			<div class="banner" >
+				<div class="banner-content" >
+					<div class="b">
+						<img src="logo.jpg" height="78px" style="width:100%">
+					</div>
+					<div class="b" style="width:300px; ">
+						<form>
+							<div style="margin-top:24px;">
+								<input style="float:left;border:none"type="text" minlength="4" maxlength="50" required placeholder="Bạn muốn tìm gì?"/>
+								<input style="width:35px;height:32px;border:none ;background-image: url('search.jpg'); background-size: cover;" type="submit" value="" />
+
+							</div>
+						</form>
+					</div>
+					<div class="b">
+					
+						<a href="cart.html">Giỏ hàng(0)</a>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<div class="menu-content">
+					<ul style="margin:0px;padding:0px;list-style:none">
+						<li><a href="index.html">Trang chủ</a></li>
+						<li><a href="about.html">Giới thiệu</a></li>
+						<li class="SanPham"><a href="#">Sản phẩm</a>
+							<ul>
+								<li><a href="accessories.html">Phụ kiện</a></li>
+								<li><a href="Iphone.html">Iphone</a></li>
+								<li><a href="Samsung.html">Samsung</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">xeomi</a></li>
+								<li><a href="#">Nokia</a></li>
+								<li><a href="#">Oppo</a></li>
+								<li><a href="#">Huawei</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="new.html">Tin tức</a></li>
+						<li><a href="Contact.html">Liên hệ</a></li>
+						<li><a href="sale.html">Khuyến mãi</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--------------------------------------Phần Main--------------------->
+		<div class="container" style="min-height:400px;">
+			<div class="wrapper" style="width:80%;margin:auto;display:flex;justify-content:center">
+				
+				<form>
+					<h2>Đăng nhập</h2>
+					<span>Nếu bạn có một tài khoản,xin vui lòng đăng nhập tại đây</span><br>
+					<div style="margin-top:10px;">
+						<span><b> Nhập tên đăng nhập</b></span><span style="color:red">*</span>:</br>
+						<input id = "username "type="text" minlength="3" maxlength="50" required placeholder="Tên đăng nhập" style="line-height:36px;width:300px;margin-top:10px;margin-bottom:15px;"/><br>
+					
+						<span><b>Mật khẩu</b></span><span style="color:red">*</span>:</br>
+						<input id = "password" type="password" minlength="3" maxlength="15" required  placeholder="********" style="line-height:36px;width:300px;margin-top:10px;margin-bottom:15px;"/><br>
+						<input id="chkAgree" type="checkbox"/>
+						<label for="chkAgree" >Hiển thị mật khẩu</label><br> 
+						<input type = "submit" value="Đăng nhập" style="border: 0px; height: 40px; background-color: red; color: white; cursor: pointer; width: 300px;margin-top:25px;margin-bottom:15px;"/>
+					</div>
+					<div>
+						<span>Bạn chưa có tài khoản? đăng ký <a style="color:red;" href="SignUp.html">tại đây</a></span><br>
+					</div>
+					<div style="margin-top:10px;margin-bottom:15px;"><span>Bạn quên mật khẩu <a style="color:red;" href="#">lấy lại tại đây</a></span></div>
+					<a href="#"><img src="LoginFB.svg" style="width:129px;height:36.36px;margin-left:15px;"></a>
+								<a href="#"><img src="LoginGG.svg" style="width:129px;height:36.36px;"></a>
+				</form>
+			</div>
+		</div>
+		<!--Phần Footer-->
+			<div class="footer" >
+			<div class="footer-content">
+				<div class="foot-left" style="float:left;width:49%;color:white;">
+					<span style="font-size:20px;font-weight:bold;">CHÚNG TÔI Ở ĐÂY VỚI BẠN</span>
+					<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+
+					<!-- Thông tin liên hệ -->
+					<div style="margin-top:10px;line-height:25px;">
+						<p><strong>Địa chỉ:</strong> Nội Tây - Trung Hòa - Yên Mỹ - Hưng Yên</p>
+						<p><strong>Giờ làm việc:</strong> 8h - 20h (Hằng ngày)</p>
+						<p><strong>Hotline:</strong> 0345 6789</p>
+					</div>
+
+					<!-- Tư vấn -->
+					<div style="display:flex;gap:10px;margin-top:15px;">
+						<div style="width:50%;">
+							<p><strong>Tư vấn đổi/trả:</strong></p>
+							<p>0345 6789</p>
+
+							<span style="font-size:18px;font-weight:bold;">Liên kết</span>
+							<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+							<img src="iconn.jpg" style="width:150px;height:50px;margin-top:10px;" alt="Social Icons">
+						</div>
+
+						<div style="width:50%;">
+							<p><strong>Tư vấn bảo hành:</strong></p>
+							<p>✉️ DienThoai123@gmail.com</p>
+
+							<span style="font-size:18px;font-weight:bold;">Thanh toán</span>
+							<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+							<img src="itemm.jpg" style="width:280px;height:50px;margin-top:10px;" alt="Payment Methods">
+						</div>
+					</div>
+				</div>
+
+				<div class="foot-right" style="float:right;width:48%;color:white;margin-left:30px">
+					<span style="font-size:20px;font-weight:bold;">VỀ CHÚNG TÔI</span>
+					<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+					
+					<div style="margin-top:10px;line-height:25px;">
+						<p>🏢 <strong>Công ty TNHH Điện Thoại 123</strong></p>
+						<p>Mã số thuế: 0101234567</p>
+						<p>📅 Thành lập: 2025</p>
+						<p>🌐 Website: www.dienthoai123.vn</p>
+					</div>
+
+					<div style="margin-top:20px;">
+						<span style="font-size:18px;font-weight:bold;">Chính sách & Hỗ trợ</span>
+						<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+						<ul style="padding-left:0;line-height:25px;margin-left:25px;">
+							<li> <a href="#" style="color:white;text-decoration:none;">Chính sách bảo hành</a></li>
+							<li> <a href="#" style="color:white;text-decoration:none;">Chính sách đổi trả</a></li>
+							<li> <a href="#" style="color:white;text-decoration:none;">Chính sách giao hàng</a></li>
+							
+						</ul>
+					</div>
+
+					<div style="margin-top:20px;">
+						<span style="font-size:18px;font-weight:bold;">Đăng ký nhận tin</span>
+						<div style="width:100%;height:1px;background-color:white;margin:5px 0;"></div>
+						<form style="margin-top:10px;">
+							<input type="email" placeholder="Nhập email của bạn" style="width:70%;padding:8px;border:none;border-radius:5px;">
+							<input type="submit" value="Gửi" style="padding:8px 12px;margin-left:5px;background-color:#ff6600;color:white;border:none;border-radius:5px;cursor:pointer;">
+						</form>
+					</div>
+				</div>
+
+					
+			</div>
+		</div>
+	</body>
+</html>
